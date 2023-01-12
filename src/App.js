@@ -3,8 +3,9 @@ import './App.css';
 import Header from './Common/Header/Header';
 import Login from './Components/Login';
 import Signup from './Components/Signup';
-import { BrowserRouter as Router} from 'react-router-dom'
+import { BrowserRouter as Router,Route,Switch,Link} from 'react-router-dom'
 import { Pages } from './Pages/Pages';
+import Home from './Components/Mainpage/Home';
 
 function App() {
   return (
@@ -13,11 +14,15 @@ function App() {
          {/* <Signup/> */}
          <Router>
            <Header/>
-            {/* <Switch> */}
-                    {/* <Route path='/' exact> */}
+            <Switch>
+            {/* <Route path='/' element={<Home/>}/> */}
+ 
+            <Route path='/' exact>
+              <Pages/>
+            </Route> 
+
                       <Pages/>
-                    {/* </Route> */}
-            {/* </Switch> */}
+            </Switch>
          </Router>
     </>
   );

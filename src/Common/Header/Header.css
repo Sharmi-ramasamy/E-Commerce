@@ -93,6 +93,16 @@ search-box input {
 }    */
 
 
+
+
+
+
+
+
+
+
+
+  
 /*------head-----------*/
 .head {
     background-color: #0f3460;
@@ -107,23 +117,29 @@ search-box input {
     font-size: 13px;
   }
   /*------head-----------*/
+
+
   /*------search-----------*/
-  .search {
+  /* .search {
     padding: 20px 0;
-  }
-  .search .logo img {
+  } */
+
+  /* .search .logo img {
     width: auto;
     height: auto;
-  }
+  } */
+
   .search .width {
     width: 20%;
   }
+
   .search-box {
     width: 80%;
     border: 2px solid rgba(0, 0, 0, 0.1);
     /*padding: 10px;*/
     border-radius: 50px;
   }
+
   .search-box i {
     width: 5%;
     text-align: center;
@@ -132,22 +148,27 @@ search-box input {
     padding: 15px 20px;
     font-size: 17px;
   }
+
   .search-box input {
     width: 100%;
     padding: 10px;
   }
+
   ::placeholder {
     font-size: 15px;
   }
+   
   .search-box span {
     width: 20%;
     opacity: 0.5;
     border-left: 2px solid rgba(0, 0, 0, 0.1);
     padding: 10px;
   }
+
   .cart {
     position: relative;
   }
+
   .search .cart span {
     position: absolute;
     top: -10px;
@@ -160,28 +181,31 @@ search-box input {
     font-size: 12px;
     color: #fff;
   }
+
   .search .f_flex {
     justify-content: end;
   }
+   
   /*------search-----------*/
 
 
 
-  .catgrories {
+  .categories {
     background-color: #f6f9fc;
     padding: 0px 30px;
-    border-radius: 5px;
+    border-radius: px;
     height: 6vh;
     margin-top: 5px;
   }
-  .catgrories span {
+
+  .categories span {
     margin-right: 20px;
     font-size: 30px;
     margin-top: 10px;
-  }
+  } 
 
-  .catgrories h4 {
-    font-weight: 500;
+  .categories h4 {
+    font-weight: 500 ;
     margin-top: 12px;
   }
   .catgrories h4 i {
@@ -203,13 +227,14 @@ search-box input {
     font-size: 15px;
     font-weight: 400;
   }
+  
   header ul li a:hover {
-    color: #ff014f;
+    color: #e94560;
   }
   
   .open {
     display: none;
-  }
+  } 
 
   .search.active {
     height: 12vh;
@@ -228,14 +253,14 @@ search-box input {
       padding-top: 30px;
     }
 
-    .nav-links-mobile {
+    .nav-links-MobileMenu {
         position: absolute;
         display: block;
-        list-style: none;
-        box-shadow: rgba(50, 50, 93, 0.23) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+        list-style: none; 
         left: 0;
         top: 0;
-        transition: all 0.5s ease-in-out;
+        /* transition: all 0.5s ease-in-out; */
+        transition: 0.5s;
         width: 60%;
         height: 100vh;
         background-color: white;
@@ -265,13 +290,14 @@ search-box input {
       .open {
         top:18%;
         right: 30px;
+       
       }
 
       .close {
         right: 45%;
       }
 
-      .close.home-btn {
+      .close .home-btn {
         background: linear-gradient(145deg, #e2e8ec, #ffffff);
         color: #ff014f;
         border-radius: 50%;
